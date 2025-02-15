@@ -1,5 +1,5 @@
 Ani-cli bulk downloader written in Python
-![Capture](https://github.com/user-attachments/assets/f59eadfa-fa63-4117-9a4c-115ee6099241)
+![Capture](https://github.com/user-attachments/assets/fa5b5275-c070-461b-80f4-f3f231365af7)
 ![Capture](https://github.com/user-attachments/assets/e132ebb5-3898-421e-bddb-a9c2b32724ca)
 
 
