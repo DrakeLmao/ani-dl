@@ -1,4 +1,4 @@
-# ani-dl: an easy to use ani-cli bulk downloader written in python
+# ani-dl: an easy to use ani-cli bulk downloader and wrapper written in python
 
 ![Capture](https://github.com/user-attachments/assets/e132ebb5-3898-421e-bddb-a9c2b32724ca)
 
