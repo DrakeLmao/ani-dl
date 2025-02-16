@@ -28,7 +28,7 @@ Lastly clone the repository and cd into the directory:
     git clone https://github.com/DrakeLmao/ani-dl && cd ani-dl
 run
 
-    chmod +x ani-dl.py && mv ani-dl.py /data/data/com.termux/files/usr/bin && cd ani-dl
+    chmod +x ani-dl.py && mv ani-dl.py /data/data/com.termux/files/usr/bin && ani-dl
 
 now you can finally run ani-dl by typing
  
