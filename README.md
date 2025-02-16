@@ -41,7 +41,7 @@ Note: for termux users you must grant storage permission by typing ```termux-set
 
 ```Dub``` Enables Dub, set this to False if you want to download with subs
 
-###Changing save location
+### Changing save location
 
 ![Capture](https://github.com/user-attachments/assets/9cfc3a05-336a-4d64-823b-5c8c9447148d)
 
