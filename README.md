@@ -1,6 +1,5 @@
 # ani-dl: an easy to use ani-cli bulk downloader written in python
 
-![Capture](https://github.com/user-attachments/assets/fa5b5275-c070-461b-80f4-f3f231365af7)
 ![Capture](https://github.com/user-attachments/assets/e132ebb5-3898-421e-bddb-a9c2b32724ca)
 
 ## What is the difference
@@ -18,16 +17,13 @@ Lastly clone the repository:
 
 ```git clone https://github.com/DrakeLmao/ani-dl```
 
+cd into the directly
+
 ```cd ani-dl```
 
+run
+
 ```python3 ani.py```
-
-if pip3 install doesn't work try
-
-```pip install termcolor```
-you can probably use older python as well
-
-```pkg install python -y```
 
 if you encounter any issues try looking around the ani-cli repo
 ani-cli repo: https://github.com/pystardust/ani-cli
