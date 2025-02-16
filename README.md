@@ -28,11 +28,16 @@ Lastly clone the repository and cd into the directory:
     git clone https://github.com/DrakeLmao/ani-dl && cd ani-dl
 run
 
-    chmod +x ani-dl.py && mv ani-dl.py /data/data/com.termux/files/usr/bin && ani-dl
+    chmod +x ani-dl && mv ani-dl /data/data/com.termux/files/usr/bin && ani-dl
 
 now you can finally run ani-dl by typing
  
     ani-dl
+
+##### Uninstallation:
+to uninstall ani-dl type:
+
+     rm /data/data/com.termux/files/usr/bin/ani-dl
 
 if you encounter any issues try submitting an issue
 
@@ -49,8 +54,22 @@ Note: for termux users you must grant storage permission by typing ```termux-set
 
 ```Dub``` Enables Dub, set this to False if you want to download with subs
 
-### Changing save location
+### Changing Configuration Options:
+to change configuration options you must clone this repository and cd into the repo:
+ 
+    git clone https://github.com/DrakeLmao/ani-dl && cd ani-dl
+
+now use any cli text editor (i personally use vim but you can try nano)
+
+    nano ani-dl
+
+great now you can change configuration options, once you find it to your liking install ani-dl on termux by typing
+
+    chmod +x ani-dl && mv ani-dl /data/data/com.termux/files/usr/bin && ani-dl
+
+
+#### Changing save location
 
 ![Capture](https://github.com/user-attachments/assets/9cfc3a05-336a-4d64-823b-5c8c9447148d)
 
-inside the .py file there's a Save location option, set it to your desired location and it should download on the location, make sure the path is legit, after typing desired storage location set SaveOnInternal to true
+inside the ani-dl file there's a Save location option, set it to your desired location and it should download on the location, make sure the path is legit, after typing desired storage location set SaveOnInternal to true
