@@ -27,3 +27,12 @@ run
 
 if you encounter any issues try looking around the ani-cli repo
 ani-cli repo: https://github.com/pystardust/ani-cli
+
+#### Configuration:
+Behind all that spaghetti code ani-dl comes with three distinct configuration options:
+
+![Capture](https://github.com/user-attachments/assets/d09be15e-824b-45a2-a914-bbcb1d63d4e4)
+
+```StoreOnInternal``` this option enables you to store your downloaded media to any folder in your device
+
+Note: for termux users you must grant storage permission by typing ```termux-setup-storage``` beforehand on the app, if your desired storage location is somewhere else you can change it to your liking
