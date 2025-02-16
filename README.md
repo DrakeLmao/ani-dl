@@ -67,7 +67,7 @@ now use any cli text editor (i personally use vim but you can try nano)
 
 great now you can change configuration options, once you find it to your liking install ani-dl on termux by typing
 
-    chmod +x ani-dl && mv ani-dl /data/data/com.termux/files/usr/bin && ani-dl
+    chmod +x ani-dl && mv ani-dl /data/data/com.termux/files/usr/bin && cd .. && rm -rf ani-dl && ani-dl
 
 
 #### Changing save location
