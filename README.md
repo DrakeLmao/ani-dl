@@ -9,24 +9,33 @@ ani-cli already has bulk download option but its kind of annoying to type out th
 install the latest version of termux from fdroid: https://f-droid.org/en/packages/com.termux/
 the installation instructions are given below:
 
-Dependencies: ani-cli, python Termcolor
+Dependencies:
+1. ani-cli
+2. python3
+3. termcolor
+4. pip3
+5. ani-cli's dependencies to run ani-cli. If you cannot install all of ani-cli's dependencies, at least try and get these:
+    - grep
+    - sed
+    - curl
+    - fzf
+    - aria2c
 
-```pkg update -y && pkg upgrade -y && pkg install python3 ani-cli git python-pip -y && pip3 install termcolor```
+          pkg update -y && pkg upgrade -y && pkg install grep sed curl wget fzf aria2 python3 ani-cli git python-pip -y && pip3 install termcolor
 
 Lastly clone the repository:
 
-```git clone https://github.com/DrakeLmao/ani-dl```
+    git clone https://github.com/DrakeLmao/ani-dl
 
 cd into the directly
 
-```cd ani-dl```
+    cd ani-dl
 
 run
 
-```python3 ani.py```
+    python3 ani.py
 
-if you encounter any issues try looking around the ani-cli repo
-ani-cli repo: https://github.com/pystardust/ani-cli
+if you encounter any issues try submitting an issue
 
 ## Configuration:
 Behind all that spaghetti code ani-dl comes with three distinct configuration options:
