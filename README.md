@@ -33,7 +33,7 @@ cd into the directly
 
 run
 
-    python3 ani.py
+    python3 ani-dl.py
 
 if you encounter any issues try submitting an issue
 
