@@ -11,7 +11,7 @@ the installation instructions are given below:
 
 Dependencies: ani-cli, python Termcolor
 
-```pkg update -y && pkg upgrade -y && pkg install python3 ani-cli python-pip -y && pip3 install termcolor```
+```pkg update -y && pkg upgrade -y && pkg install python3 ani-cli git python-pip -y && pip3 install termcolor```
 
 Lastly clone the repository:
 
