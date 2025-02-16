@@ -30,6 +30,8 @@ run
 
     chmod +x ani-dl && mv ani-dl /data/data/com.termux/files/usr/bin && cd .. && rm -rf ani-dl && ani-dl
 
+Note: You might have to restart termux for changes to take effect
+
 now you can finally run ani-dl by typing
  
     ani-dl
