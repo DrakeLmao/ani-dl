@@ -11,9 +11,9 @@ the installation instructions are given below:
 
 Dependencies:
 1. ani-cli
-2. python3
+2. python
 3. termcolor
-4. pip3
+4. pip
 5. ani-cli's dependencies to run ani-cli. If you cannot install all of ani-cli's dependencies, at least try and get these:
     - grep
     - sed
@@ -21,7 +21,7 @@ Dependencies:
     - fzf
     - aria2c
 
-          pkg update -y && pkg upgrade -y && pkg install grep sed curl wget fzf aria2 python3 ani-cli git python-pip -y && pip3 install termcolor
+          pkg update -y && pkg upgrade -y && pkg install grep sed curl wget fzf aria2 python ani-cli git python-pip -y && pip3 install termcolor
 
 Lastly clone the repository:
 
@@ -33,7 +33,7 @@ cd into the directly
 
 run
 
-    python3 ani-dl.py
+    python ani-dl.py
 
 if you encounter any issues try submitting an issue
 
