@@ -69,6 +69,8 @@ great now you can change configuration options, once you find it to your liking 
 
     chmod +x ani-dl && mv ani-dl /data/data/com.termux/files/usr/bin && cd .. && rm -rf ani-dl && ani-dl
 
+now you can run ani-dl by typing ani-dl in terminal (you might have to restart termux for changes to take effect)
+
 
 #### Changing save location
 
