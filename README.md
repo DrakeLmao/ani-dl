@@ -14,14 +14,19 @@ Dependencies: ani-cli, python Termcolor
 
 ```pkg update -y && pkg upgrade -y && pkg install python3 ani-cli python-pip -y && pip3 install termcolor```
 
-Lastly clone the repository
+Lastly clone the repository:
+
 ```git clone https://github.com/DrakeLmao/ani-dl```
+
 ```cd ani-dl```
+
 ```python3 ani.py```
 
 if pip3 install doesn't work try
+
 ```pip install termcolor```
 you can probably use older python as well
+
 ```pkg install python -y```
 
 if you encounter any issues try looking around the ani-cli repo
