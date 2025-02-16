@@ -23,17 +23,16 @@ Dependencies:
 
           pkg update -y && pkg upgrade -y && pkg install grep sed curl wget fzf aria2 python ani-cli git python-pip -y && pip3 install termcolor
 
-Lastly clone the repository:
+Lastly clone the repository and cd into the directory:
 
-    git clone https://github.com/DrakeLmao/ani-dl
-
-cd into the directly
-
-    cd ani-dl
-
+    git clone https://github.com/DrakeLmao/ani-dl && cd ani-dl
 run
 
-    python ani-dl.py
+    chmod +x ani-dl.py && mv ani-dl.py /data/data/com.termux/files/usr/bin && cd ani-dl
+
+now you can finally run ani-dl by typing
+ 
+    ani-dl
 
 if you encounter any issues try submitting an issue
 
