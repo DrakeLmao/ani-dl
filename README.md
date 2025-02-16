@@ -52,7 +52,9 @@ Behind all that spaghetti code ani-dl comes with three distinct configuration op
 
 Note: for termux users you must grant storage permission by typing ```termux-setup-storage``` beforehand on the app, its False by default. if your desired storage location is somewhere else you can change it to your liking.
 
-```Defaultquality``` Disables QualitySelector in exchange for Default quality selected by ani-cli, its False by default
+```Defaultquality``` Disables QualitySelector in exchange for Default quality selected by ani-cli, its False by default 
+
+Note: by typing nothing in quality selector input you can download on default quality each run
 
 ```Dub``` Enables Dub, set this to False if you want to download with subs
 
