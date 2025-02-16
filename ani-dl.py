@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from termcolor import colored
 import os
 line = ("----------------------")
