@@ -3,7 +3,7 @@
 ![Capture](https://github.com/user-attachments/assets/e132ebb5-3898-421e-bddb-a9c2b32724ca)
 
 ## What is the difference?
-ani-dl is merely a wrapper for ani-cli. ani-cli already has bulk download option but its kind of annoying to type out the command every time you want to download something so i decided to make the process easier by making a wrapper using python, it has configuration options in the file which you can use to enable or disable Dub, default quality and more (you can have default quality by just not picking any optiond during quality selector menu) also its mainly intended for termux users using android devices, also you might want to change storage options if you want to save your files in a custom directory, you can find configuration guide below,
+ani-dl is merely a wrapper for ani-cli, ani-cli already has bulk download option but its kind of annoying to type out the command every time you want to download something so i decided to make the process easier by making a wrapper using python, it has configuration options in the file which you can use to enable or disable Dub, default quality and more (you can have default quality by just not picking any optiond during quality selector menu) also its mainly intended for termux users using android devices, also you might want to change storage options if you want to save your files in a custom directory, you can find configuration guide below,
 
 ## Installation (Termux Android)
 Install the latest version of termux from fdroid: https://f-droid.org/en/packages/com.termux/
