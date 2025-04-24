@@ -3,10 +3,10 @@
 ![Capture](https://github.com/user-attachments/assets/e132ebb5-3898-421e-bddb-a9c2b32724ca)
 
 ## What is the difference?
-ani-cli already has bulk download option but its kind of annoying to type out the command every time you want to download something so i decided to make the process easier by making a wrapper using python, it has configurationn options in the file which you can use to enable or disable Dub and also enable or disable default quality (you can have default quality by just not picking option during quality selector menu) also its mainly intended for termux users using android device to do their things, also you might want to change storage options if you want to save your files in a custom directory, you can find configuration guide below,
+ani-dl is merely a wrapper for ani-cli. ani-cli already has bulk download option but its kind of annoying to type out the command every time you want to download something so i decided to make the process easier by making a wrapper using python, it has configuration options in the file which you can use to enable or disable Dub, default quality and more (you can have default quality by just not picking any optiond during quality selector menu) also its mainly intended for termux users using android devices, also you might want to change storage options if you want to save your files in a custom directory, you can find configuration guide below,
 
 ## Installation (Termux Android)
-install the latest version of termux from fdroid: https://f-droid.org/en/packages/com.termux/
+Install the latest version of termux from fdroid: https://f-droid.org/en/packages/com.termux/
 the installation instructions are given below:
 
 Dependencies:
@@ -67,11 +67,11 @@ now use any cli text editor (i personally use vim but you can try nano)
 
     nano ani-dl
 
-great now you can change configuration options, once you find it to your liking install ani-dl on termux by typing
+great now you can change configuration options, once you find it to your liking, install ani-dl on termux by typing:
 
     chmod +x ani-dl && mv ani-dl /data/data/com.termux/files/usr/bin && cd .. && rm -rf ani-dl && ani-dl
 
-now you can run ani-dl by typing ani-dl in terminal (you might have to restart termux for changes to take effect)
+now you can run ani-dl by typing ```ani-dl in terminal``` (you might have to restart termux for changes to take effect)
 
 
 #### Changing save location
